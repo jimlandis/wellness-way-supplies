@@ -205,3 +205,12 @@ button.link{background:none;border:0;color:#b3261e;text-decoration:underline;cur
   .cart-table tfoot th{display:none}
 }
 @media (max-width:520px){.logo-ph.sm{width:122px;height:50px;font-size:7.5px;letter-spacing:0;padding:3px;border-width:2px}}
+
+/* placeholder SVG graphics (logo + photos) */
+.logo-img{display:block;height:auto;max-width:100%}
+.logo-img.sm{height:54px;width:auto}
+.logo-img.md{width:240px}
+.logo-img.lg{width:100%;max-width:340px}
+.photo-img{display:block;width:100%;height:auto;border-radius:10px}
+.photo-img.sm{border-radius:0;aspect-ratio:4/3;object-fit:cover}
+.hero-card .photo-img{box-shadow:0 10px 30px rgba(0,0,0,.25)}
